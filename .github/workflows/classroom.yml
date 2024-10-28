@@ -1,5 +1,5 @@
 name: Autograding Tests
-'on':
+on:
 - workflow_dispatch
 - repository_dispatch
 permissions:
