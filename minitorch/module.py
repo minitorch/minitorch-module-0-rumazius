@@ -49,6 +49,7 @@ class Module:
         Returns
         -------
             The name and `Parameter` of each ancestor parameter.
+
         """
         res = [(name, param) for name, param in self._parameters.items()]
         for k, v in self._modules.items():
